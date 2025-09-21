@@ -1,6 +1,13 @@
-# SANS 401 Network Security Cloud Essentials
+# SANS 401 Network Security and Cloud Essentials - notes
 
-## Sampling of possible router attacks:
+## Network Attacks against Routers
+
+Sampling of possible router attacks:
+* **DoS** - Denial of Service
+* **DDoS** - Distributed Denial of Service
+* **Packet Sniffing**
+* **Packet Missrouting**
+* **RTP** - Routing Table Poising
 
 **DoS** - service of the device is being impacted (denied). Example: Router is offline on 10 min. patching time, the organizaton suffers a loss ot money.
 
@@ -8,8 +15,15 @@
 
 **Packet Sniffing** - refests to the capture (and analysis) of the traffic of a network ( the network's communication)
 
-**Packet Missrouting and Routing Table Poising** - with packet missrouting, a router's configuration is manipulated such that traffic is no longer routed prperly; trafic might be routed to non-existent network locations, or looping. RTP - the adversary convinces a router to update it's routing table, resulting in traffic redirection.
+**Packet Missrouting** and **Routing Table Poising** - with packet missrouting, a router's configuration is manipulated such that traffic is no longer routed prperly; trafic might be routed to non-existent network locations, or looping. RTP - the adversary convinces a router to update it's routing table, resulting in traffic redirection.
 
-## Sampling of possible switch attacks:
+## Network Attacks against Switches
 
-**CDP Information Disclosure** - CISCO Discovery Protocol - Lack of encryption and authentication enables data interception, man-in-the-middle attacks, or DoS via spoofed packets.Open ifo about OS, Ports and other in Packets via Switches
+Sampling of possible switch attacks:
+* **CDP** Information Disclosure
+* **MAC Flooding**
+* **DHCP** Manipulation
+* **STP** Manipulation
+* **VLAN** - Hopping
+
+**CDP** Information Disclosure - CISCO Discovery Protocol - Lack of encryption and authentication enables data interception, man-in-the-middle attacks, or DoS via spoofed packets.Open ifo about OS, Ports and other in Packets via Switches
