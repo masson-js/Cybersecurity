@@ -27,11 +27,11 @@
 - This is a field that varies in length from 0 to a multiple of 32 bits.
 - If the option values are not a multiple of 32 bits, 0s are added, or padded, to ensure that this field contains a multiple of 32 bits.
 
-![ip4sample]()
+![ip4sample](https://github.com/masson-js/Cybersecurity/blob/main/Notes/CISCO_NA_ES/images/ip4sample.png?raw=true)
 
 ## Pv6 Packet Header
 
-![ip6header]()
+![ip6header](https://github.com/masson-js/Cybersecurity/blob/main/Notes/CISCO_NA_ES/images/ip6header.png?raw=true)
 
 - This field contains a 4-bit binary value set to 0110 that identifies this as an IPv6 packet.
 - This 8-bit field is equivalent to the IPv4 Differentiated Services (DS) field.
@@ -45,4 +45,4 @@
 - This 128-bit field identifies the IPv6 address of the sending host.
 - This 128-bit field identifies the IPv6 address of the receiving host.
 
-![ip6sample]()
+![ip6sample](https://github.com/masson-js/Cybersecurity/blob/main/Notes/CISCO_NA_ES/images/ip6sample.png?raw=true)
